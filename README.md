@@ -142,10 +142,10 @@ The meaning of Encapsulation, is to make sure that "sensitive" data is hidden fr
 Types of inheritance:
 
 1. ****Simple Inheritance:**** When there is one base/super/parent class and one derived class.
-  ➤ [Simple Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/simple_inheritance.cpp)
+   ➤ [Simple Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/simple_inheritance.cpp)
 
-2. ****Multiple Inheritance:**** When a class is derived more than one base classes.
-  ➤ [Multiple Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/multiple_inheritance.cpp)
+3. ****Multiple Inheritance:**** When a class is derived more than one base classes.
+   ➤ [Multiple Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/multiple_inheritance.cpp)
 
-3. ****Multilevel Inheritance:**** When a derived class is being inheritated from another derived class.
-  ➤ [Multilevel Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/multilevel_inheritance.cpp)
+5. ****Multilevel Inheritance:**** When a derived class is being inheritated from another derived class.
+   ➤ [Multilevel Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/multilevel_inheritance.cpp)
