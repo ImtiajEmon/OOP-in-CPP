@@ -118,9 +118,9 @@ Access specifiers define how the members (attributes and methods) of a class can
 <br />
 <br />
 In C++, there are three access specifiers: <br />
-&nbsp public - Members are accessible from outside the class <br />
-&nbsp private - Members cannot be accessed (or viewed) from outside the class <br />
-&nbsp protected - Members cannot be accessed from outside the class. However, they can be accessed in inherited classes. <br />
+  public - Members are accessible from outside the class <br />
+  private - Members cannot be accessed (or viewed) from outside the class <br />
+  protected - Members cannot be accessed from outside the class. However, they can be accessed in inherited classes. <br />
 
 
 
