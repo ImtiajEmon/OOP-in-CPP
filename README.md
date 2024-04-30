@@ -115,11 +115,12 @@ int Player :: total_run = 0;
 
 ## ⫸ Access Specifiers
 Access specifiers define how the members (attributes and methods) of a class can be accessed.
-
-In C++, there are three access specifiers:
-  public - Members are accessible from outside the class
-  private - Members cannot be accessed (or viewed) from outside the class
-  protected - Members cannot be accessed from outside the class. However, they can be accessed in inherited classes.
+<br />
+<br />
+In C++, there are three access specifiers: <br />
+  public - Members are accessible from outside the class <br />
+  private - Members cannot be accessed (or viewed) from outside the class <br />
+  protected - Members cannot be accessed from outside the class. However, they can be accessed in inherited classes. <br />
 
 
 
