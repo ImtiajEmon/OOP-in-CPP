@@ -14,7 +14,7 @@ class MyClass {       // The class
 We can creat a class with constructor method as well as without constructor method.
 If we use constructor method then the constructor method name should be same as class name.
 
-➤ [Class Without Constructor](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Simple%20Class/class_without_constructor.cpp)
+➤ [Class Without Constructor](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Simple%20Class/class_without_constructor.cpp) 
 ➤ [Class With Constructor](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Simple%20Class/class_with_constructor.cpp)
 
 ## Creating an Object
