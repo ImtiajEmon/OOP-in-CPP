@@ -20,7 +20,8 @@ If we use constructor method then the constructor method name should be same as 
 ➤ [Class With Constructor](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Simple%20Class/class_with_constructor.cpp)
 
 
-
+<br />
+<br />
 
 
 ## ⫸ Creating an Object
@@ -36,7 +37,8 @@ Student student1("Jason", "CSE");
 ```
 
 
-
+<br />
+<br />
 
 ## ⫸ Methods
 Methods are functions that belongs to the class.
@@ -73,4 +75,77 @@ void MyClass::myMethod() {
 ➤ [Outside class definition](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Methods/outside_class_definition.cpp) 
 
 
+<br />
+<br />
 
+
+## ⫸ Variables
+
+1) ****Instance Variable:**** Instance variables are owned by instances of the class. This means that for each object or instance of a class, the instance variables are different. Unlike class variables, instance variables are defined within methods.
+
+2) ****Static or Class Variable:**** This is not a property of objects or instances it's a property of class. But this type of variable also accessible from objects.
+
+```
+class Player{
+    public:
+        int run = 0;       // Instance Variable
+        static int total_run;  // Class or Static Variable. It should be declared not assigned int the class
+
+        void hit4(){
+            run += 4;
+            total_run += 4;
+        }
+
+        void hit6(){
+            run += 6;
+            total_run += 6;
+        }
+};
+
+
+// Class or Static variable have to assigned outside the class unless it's a const
+int Player :: total_run = 0;
+```
+➤ [Use of different types of variables](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Variables/variables.cpp)
+
+
+<br />
+<br />
+
+
+## ⫸ Access Specifiers
+Access specifiers define how the members (attributes and methods) of a class can be accessed.
+
+In C++, there are three access specifiers:
+  public - Members are accessible from outside the class
+  private - Members cannot be accessed (or viewed) from outside the class
+  protected - Members cannot be accessed from outside the class. However, they can be accessed in inherited classes.
+
+
+
+<br />
+<br />
+
+
+## ⫸ Encapsulation
+The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, we must declare class variables/attributes as private (cannot be accessed from outside the class). If we want others to read or modify the value of a private member, we can provide public **get** and **set** methods.
+
+➤ [Encapsulation](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Encapsulation/encapsulation.cpp)
+
+
+
+<br />
+<br />
+
+
+## ⫸ Inheritance
+Types of inheritance:
+
+1. ****Simple Inheritance:**** When there is one base/super/parent class and one derived class.
+  ➤ [Simple Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/simple_inheritance.cpp)
+
+2. ****Multiple Inheritance:**** When a class is derived more than one base classes.
+  ➤ [Multiple Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/multiple_inheritance.cpp)
+
+3. ****Multilevel Inheritance:**** When a derived class is being inheritated from another derived class.
+  ➤ [Multilevel Inheritance](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Inheritance/multilevel_inheritance.cpp)
