@@ -17,6 +17,7 @@ If we use constructor method then the constructor method name should be same as 
 ➤ [Class Without Constructor](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Simple%20Class/class_without_constructor.cpp) 
 ➤ [Class With Constructor](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Simple%20Class/class_with_constructor.cpp)
 
+
 ## Creating an Object
 > When the constructor is not perametarized -
 ```
