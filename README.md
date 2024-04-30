@@ -1,6 +1,7 @@
 # OOP-in-CPP
 ---
 
+
 ## ⫸ Creating a Class
 > A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a "blueprint" for creating objects.
 
@@ -19,6 +20,9 @@ If we use constructor method then the constructor method name should be same as 
 ➤ [Class With Constructor](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Simple%20Class/class_with_constructor.cpp)
 
 
+
+
+
 ## ⫸ Creating an Object
 > When the constructor is not perametarized 
 ```
@@ -30,6 +34,8 @@ Student student1;
 // CLASS_NAME OBJECT_NAME(ARG1, ARG2...)
 Student student1("Jason", "CSE");
 ```
+
+
 
 
 ## ⫸ Methods
@@ -50,7 +56,7 @@ class MyClass {        // The class
 ```
 ➤ [Inside class definition](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Methods/inside_class_definition.cpp) 
 
-
+<br />
 
 > ****Outside class definition:**** Should declare the mothod inside the class but define the method outside the class
 ```
