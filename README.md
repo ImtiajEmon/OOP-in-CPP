@@ -39,7 +39,7 @@ There are two ways to define functions that belongs to a class:
   1. Inside class definition
   2. Outside class definition
 
-> Inside class definition: Declare & define the method inside the class
+> **Inside class definition:** Declare & define the method inside the class
 ```
 class MyClass {        // The class
   public:              // Access specifier
@@ -51,7 +51,8 @@ class MyClass {        // The class
 ➤ [Inside class definition](https://github.com/ImtiajEmon/OOP-in-CPP/blob/main/Methods/inside_class_definition.cpp) 
 
 
-> Outside class definition: Should declare the mothod inside the class but define the method outside the class
+
+> **Outside class definition:** Should declare the mothod inside the class but define the method outside the class
 ```
 class MyClass {        // The class
   public:              // Access specifier
